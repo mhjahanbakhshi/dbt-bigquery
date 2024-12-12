@@ -1,0 +1,23 @@
+version: 2
+sources:
+  - name: shop
+    database: "dbtbigquery-444416"
+    schema: shop
+    tables:
+      - name: GoogleSearch_Ad_Groups
+      - name: GoogleSearch_Ads
+      - name: GoogleSearch_Keywords
+      - name: GoogleSearch_Overall_Performances
+      - name: GoogleSearch_Search_Terms
+      - name: MetaFreeCourse_Overall_Performances
+      - name: MetaFreeCourse_Performances_Per_Ad
+      - name: MetaRetargeting_Overall_Performances
+      - name: MetaRetargeting_Performances_Per_Ad
+      - name: MetaRetargeting_Performances_Per_Ad_Set
+      - name: PMax_Assets
+      - name: PMax_Overall_Performance
+  - name: ga4_obfuscated_sample_ecommerce
+    database: bigquery-public-data
+    schema: ga4_obfuscated_sample_ecommerce
+    tables:
+      - name: events
