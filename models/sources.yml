@@ -16,8 +16,3 @@ sources:
       - name: MetaRetargeting_Performances_Per_Ad_Set
       - name: PMax_Assets
       - name: PMax_Overall_Performance
-  - name: ga4_obfuscated_sample_ecommerce
-    database: bigquery-public-data
-    schema: ga4_obfuscated_sample_ecommerce
-    tables:
-      - name: events
